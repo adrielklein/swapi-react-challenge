@@ -1,0 +1,54 @@
+{
+  "name": "swapi-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.19.2",
+    "ramda": "^0.27.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.0",
+    "styled-components": "^5.0.1",
+    "yarn": "^1.22.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "bestzip delivery.zip src public package.json README.md yarn.lock",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier": "prettier --write \"src/**/*.js\"",
+    "clean": "rimraf node_modules"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.1.1",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^10.0.0",
+    "bestzip": "^2.1.5",
+    "husky": "^4.2.3",
+    "prettier": "1.19.1",
+    "pretty-quick": "^2.0.1",
+    "rimraf": "^3.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
