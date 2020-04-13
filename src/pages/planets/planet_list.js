@@ -27,7 +27,7 @@ export const PlanetList = () => {
     fetch().then();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [page]);
 
   return <List>{build_items("planets/", planets)}</List>;
 };
