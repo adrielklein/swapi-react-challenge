@@ -40,7 +40,7 @@
     "@testing-library/jest-dom": "^5.1.1",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^10.0.0",
-    "bestzip": "^2.1.5",
+    "bestzip": "^2.1.7",
     "husky": "^4.2.3",
     "prettier": "1.19.1",
     "pretty-quick": "^2.0.1",
